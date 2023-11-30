@@ -1,26 +1,45 @@
 /* DOKUMENT STYLŮ K ÚPRAVĚ */
 
 .main {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   flex-wrap: wrap;
    gap: 1em;
 }
 
 .ytv {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: space-between;
 }
 .ytv__bottom {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5em;
 }
 .ytv__left {
-    
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 .ytv__right {
-    
+    display: flex;
+    flex-grow: 1;
+    gap: 0.5em;
+    justify-content: flex-end;
 }
 .profile {
-    
+   display: flex;
+   gap: 1em;
+   align-items: center;
 }
 .profile__text {
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .icon {
 
