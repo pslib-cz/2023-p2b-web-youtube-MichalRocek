@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 1em;
 }
 .ytv__left {
     display: flex;
@@ -28,13 +28,12 @@
 .ytv__right {
     display: flex;
     flex-grow: 1;
-    gap: 0.5em;
+    gap: 1em;
     justify-content: flex-end;
 }
 .profile {
    display: flex;
    gap: 1em;
-   align-items: center;
 }
 .profile__text {
     display:flex;
@@ -42,8 +41,8 @@
     justify-content: space-between;
 }
 .icon {
-
+   display: flex;
 }
 .btn--flex {
-    
+    display: flex;
 }
